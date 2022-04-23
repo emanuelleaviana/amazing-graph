@@ -74,4 +74,14 @@ div p {
     z-index: 0;
 }
 
+@media screen and (max-width: 1600px) {
+    img {
+        width: 1000px;
+    }
+}
 
+@media screen and (max-width:1450px) {
+    img {
+        width: 700px;
+    }
+}
