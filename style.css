@@ -95,10 +95,6 @@ div p {
         padding-bottom: 0%;
     }
 
-    nav li {
-        opacity: 0;
-    }
-
     div h1, p {
         font-size: 3em;
         text-align: center;
@@ -142,6 +138,7 @@ div p {
         position: absolute;
         right: 0;
         left: 720px;
+        overflow-x: hidden;
     }
     
     .mobile_menu div {
@@ -150,6 +147,5 @@ div p {
         height: 2px;
         background-color: black;
         margin: 8px;
-        
     }
 }
