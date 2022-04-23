@@ -9,7 +9,6 @@ body {
 header {
     padding: 40px;
     font-size: 20px;
-    
 }
 
 header .logo {
@@ -28,7 +27,6 @@ header a {
 header ul {
     display: flex;
     justify-content: right;
-    align-items: right;
     padding-right: 20px;
 }
 
@@ -74,6 +72,8 @@ div p {
     z-index: 0;
 }
 
+
+
 @media screen and (max-width: 1600px) {
     img {
         width: 1000px;
@@ -83,5 +83,75 @@ div p {
 @media screen and (max-width:1450px) {
     img {
         width: 700px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    
+    .itens {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header  {
+        padding-bottom: 0%;
+    }
+
+    nav li {
+        opacity: 0;
+    }
+
+    div h1, p {
+        font-size: 3em;
+        text-align: center;
+        padding-bottom: 40px;
+        display: block;
+        margin: 0px auto;
+        
+    }
+
+    div.txt {
+        display: block;
+        float: none;
+        position: static;
+        padding: 0px;
+        order: 2;
+    }
+
+    img {
+        width: 450px;
+        display: block;
+        margin: 0px auto;
+    }
+
+    #img {
+        float: none;
+        position: static; 
+        order: 1;  
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    #btn {
+        display: block;
+        margin: 0px auto;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        position: absolute;
+        right: 0;
+        left: 720px;
+    }
+    
+    .mobile_menu div {
+        display: block;
+        width: 32px;
+        height: 2px;
+        background-color: black;
+        margin: 8px;
+        
     }
 }
