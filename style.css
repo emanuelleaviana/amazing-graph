@@ -43,6 +43,7 @@ div.txt {
     float: left;
     inline-size: auto;
     padding: 40px 40px 40px 100px;
+    z-index: 1;
 }
 
 div h1 {
@@ -70,7 +71,7 @@ div p {
 #img {
     position: relative;
     float: right;
-    inline-size: auto;
+    z-index: 0;
 }
 
 
